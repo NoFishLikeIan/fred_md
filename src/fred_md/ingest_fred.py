@@ -2,7 +2,7 @@ import pandas as pd
 
 from urllib.error import HTTPError
 
-from utils.transform import normalize
+from .utils.transform import normalize
 
 
 make_url = lambda version: f"https://s3.amazonaws.com/files.fred.stlouisfed.org/fred-md/monthly/{version}.csv"
